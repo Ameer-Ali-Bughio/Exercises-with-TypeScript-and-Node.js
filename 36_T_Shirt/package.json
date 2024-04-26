@@ -1,16 +1,23 @@
 {
-  "name": "33_ordinal_number",
+  "name": "tsc",
   "version": "1.0.0",
-  "description": "",
+  "description": "C",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "y",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.12.2"
+    "@types/node": "^20.12.5"
+  },
+  "dependencies": {
+    "undici-types": "^5.26.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "y"
   }
 }

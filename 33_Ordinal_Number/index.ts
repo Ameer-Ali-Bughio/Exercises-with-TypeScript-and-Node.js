@@ -9,9 +9,37 @@
 // Your output should read "1st 2nd 3rd 4th 5th 6th
 // 7th 8th 9th", and each result should be on a separate line.
 
+console.log("\t First Method \t")
+
+   //         1st Method
+
 let numbers :number[] = [1,2,3,4,5,6,7,8,9];
  for(let i=0; i<numbers.length; i++){
       if(numbers[i] === 1){
-          console.log(`${numbers[i]}st`);
+          console.log(`${numbers[i]}st`)
       }
+  else if(numbers[i] === 2){
+     console.log(`${numbers[i]}nd`);
+ } else if(numbers[i] === 3){
+     console.log(`${numbers[i]}rd`);
+ } else{
+    console.log(`${numbers[i]}th`);
  }
+};
+
+console.log("\t Sencond Method \t")
+
+////   2nd Method
+     let number :number[] = [1,2,3,4,5,6,7,8,9];
+    
+  number.forEach(item => {
+    if(item === 1){
+        console.log(`${item}st`)
+    } else if(item === 2){
+        console.log(`${item}nd`)
+    } else if(item === 3){
+        console.log(`${item}rd`)
+    } else {
+        console.log(`${item}th`)
+    }
+  });
